@@ -29,6 +29,7 @@
     "@popperjs/core": "^2.9.2",
     "@ramp-network/ramp-instant-sdk": "^2.2.0",
     "@reduxjs/toolkit": "^1.6.1",
+    "@synthetixio/synpress": "^0.9.14",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.1.9",
@@ -50,6 +51,7 @@
     "isomorphic-fetch": "^3.0.0",
     "lodash": "^4.17.21",
     "material-ui": "^0.20.2",
+    "msw": "^0.35.0",
     "node-sass": "^6.0.1",
     "node-watch": "^0.7.1",
     "postcss": "^8.3.5",
@@ -115,7 +117,7 @@
     "ship": "yarn surge",
     "theme": "npx gulp less",
     "watch": "node ./scripts/watch.js",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:open": "synpress open",
+    "cypress:run": "synpress run"
   }
 }
